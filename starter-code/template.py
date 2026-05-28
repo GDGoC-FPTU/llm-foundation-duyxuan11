@@ -77,7 +77,7 @@ def call_openai(
 def call_gemini(
     prompt: str,
     model: str = GEMINI_MODEL,
-    temperature: float = 0.7,
+    temperature: float = 0.0,
     top_p: float = 0.9,
     max_tokens: int = 256,
 ) -> tuple[str, float, dict]:
